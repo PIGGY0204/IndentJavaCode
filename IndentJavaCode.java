@@ -60,6 +60,8 @@ public class IndentJavaCode {
                 }
                 output.flush();
             }
+        } catch (NullPointerException ex) {
+            System.out.println("end");
         } catch (Exception ex) {
             System.out.println(ex);
         }
